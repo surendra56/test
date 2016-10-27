@@ -26,6 +26,7 @@ curl_setopt($ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
 curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($fields));
 
 $result = curl_exec($ch);
+echo "asdasd";
 print_r($result);
 curl_close($ch);
 ?>
